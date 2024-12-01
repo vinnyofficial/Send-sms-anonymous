@@ -9,7 +9,7 @@ class SMS:
         self.data = {
             "phone": self.number,
             "message": self.text,
-            "key": "dcD6xFeFNpUxM4tEwsXxeOcnQ9Y8h1T1"  # Replace with>
+            "key": "<your sms api key here>"  # Replace with>
         }
 
     def sendSMS(self):
